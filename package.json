@@ -1,0 +1,35 @@
+{
+  "name": "toctoc",
+  "version": "0.0.1",
+  "description": "Make the doorbell great again",
+  "main": "toctoc.js",
+  "dependencies": {
+      "colors": "^1.1.2",
+      "play": "^0.5.0",
+      "twitter": "^1.4.0",
+      "spacebro-client": "^0.2.1",
+      "onoff": "^1.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+      "test": "npm test",
+      "listen": "node ./listen-toctoc/toctoc-listener.js",
+      "server": "node ./toctocbro/toctoc.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alambrinidis/toctoc.git"
+  },
+  "keywords": [
+      "toctoc",
+      "doorbell",
+      "node",
+      "soixantecircuits"
+  ],
+  "author": "alambrinidis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alambrinidis/toctoc/issues"
+  },
+  "homepage": "https://github.com/alambrinidis/toctoc#readme"
+}
